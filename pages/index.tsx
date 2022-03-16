@@ -1,9 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Header from '../components/display/Header'
-import Hero_card from '../components/display/Hero_card'
-import Hero_card_background from '../components/display/Hero_card_background'
-import Hero_card_text from '../components/display/Hero_card_text'
+import Hero_card from '../components/display/Hero/Hero_card'
 
 const Home: NextPage = () => {
   return (

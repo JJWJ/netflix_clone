@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
-import Header from '../components/display/Header'
-import Hero_card from '../components/display/Hero_card'
+import Header from '../components/display/Header/Header'
+import Hero_card from '../components/display/Hero/Hero_card'
 import Home from '../pages/index'
 
 describe('Home existences', () => {

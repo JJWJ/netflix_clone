@@ -1,4 +1,4 @@
-import Netflix_SVG from "./SVG/Netflix_SVG"
+import Netflix_SVG from "../SVG/Netflix_SVG"
 
 const Header = () => {
     return (
