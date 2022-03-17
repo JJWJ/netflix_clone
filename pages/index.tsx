@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Faq from '../components/display/FAQ/Faq'
 import Footer_card from '../components/display/Footer/Footer_card'
 import Header from '../components/display/Header/Header'
 import Hero_card from '../components/display/Hero/Hero_card'
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <div className='flex h-screen'>
           <Hero_card />
         </div>
+        <Faq />
         <Footer_card />
       </main>
     </div >
