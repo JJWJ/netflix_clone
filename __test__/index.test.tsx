@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react'
+import Faq from '../components/display/FAQ/Faq'
 import Footer_card from '../components/display/Footer/Footer_card'
 import Header from '../components/display/Header/Header'
 import Hero_card from '../components/display/Hero/Hero_card'
@@ -48,6 +49,14 @@ describe('Home existences', () => {
     const check_footer_phone_number = screen.getByText(/1-844-505-2993/)
 
     expect(check_footer_phone_number).toBeInTheDocument()
+  })
+
+  it('renders the faq', () => {
+    render(<Faq />)
+
+    const check_faq_question = screen.getByText(/What is Netflix/i)
+
+    expect(check_faq_question).toBeInTheDocument()
   })
 
 })
