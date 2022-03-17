@@ -1,4 +1,5 @@
 import { render, screen } from '@testing-library/react'
+import Footer_card from '../components/display/Footer/Footer_card'
 import Header from '../components/display/Header/Header'
 import Hero_card from '../components/display/Hero/Hero_card'
 import Home from '../pages/index'
@@ -39,6 +40,14 @@ describe('Home existences', () => {
     })
 
     expect(check_sign_up).toBeInTheDocument()
+  })
+
+  it('renders the footer', () => {
+    render(<Footer_card />)
+
+    const check_footer_phone_number = screen.getByText(/1-844-505-2993/)
+
+    expect(check_footer_phone_number).toBeInTheDocument()
   })
 
 })
