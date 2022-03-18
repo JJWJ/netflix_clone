@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import React from 'react'
-import Header from '../Header/Header'
 import Hero_card_background from './Hero_card_background'
 import Hero_card_form from './Hero_card_form'
 import Hero_card_text from './Hero_card_text'
