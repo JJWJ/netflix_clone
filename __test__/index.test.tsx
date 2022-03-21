@@ -3,6 +3,10 @@ import Faq from '../components/display/FAQ/Faq'
 import Footer_card from '../components/display/Footer/Footer_card'
 import Header from '../components/display/Header/Header'
 import Hero_card from '../components/display/Hero/Hero_card'
+import Story_card_enjoy from '../components/display/Story_Cards/Story_card_enjoy'
+import Story_card_kids from '../components/display/Story_Cards/Story_card_kids'
+import Story_card_watch from '../components/display/Story_Cards/Story_card_watch'
+import Story_card_download from '../components/display/Story_Cards/Stroy_card_download'
 import Home from '../pages/index'
 
 describe('Home existences', () => {
@@ -59,4 +63,43 @@ describe('Home existences', () => {
     expect(check_faq_question).toBeInTheDocument()
   })
 
+  it('renders the kids story card', () => {
+    render(<Story_card_kids Header='Header Working' MainText='Main text here' />)
+
+    const check_for_header_text = screen.getByText(/Header Working/i)
+    const check_for_main_text = screen.getByText(/Main text here/i)
+
+    expect(check_for_header_text).toBeInTheDocument()
+    expect(check_for_main_text).toBeInTheDocument()
+  })
+
+  it('renders the watch story card', () => {
+    render(<Story_card_watch Header='Watch everywhere' MainText='Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.' />)
+
+    const check_for_header_text = screen.getByText(/Watch everywhere/i)
+    const check_for_main_text = screen.getByText(/Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more./i)
+
+    expect(check_for_header_text).toBeInTheDocument()
+    expect(check_for_main_text).toBeInTheDocument()
+  })
+
+  it('renders the download story card', () => {
+    render(<Story_card_download Header='Download your shows to watch offline.' MainText='Save your favorites easily and always have something to watch.' />)
+
+    const check_for_header_text = screen.getByText(/Download your shows to watch offline./i)
+    const check_for_main_text = screen.getByText(/Save your favorites easily and always have something to watch./i)
+
+    expect(check_for_header_text).toBeInTheDocument()
+    expect(check_for_main_text).toBeInTheDocument()
+  })
+
+  it('renders the enjoy story card', () => {
+    render(<Story_card_enjoy Header='Enjoy on your TV.' MainText='Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.' />)
+
+    const check_for_header_text = screen.getByText(/Enjoy on your TV./i)
+    const check_for_main_text = screen.getByText(/Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more./i)
+
+    expect(check_for_header_text).toBeInTheDocument()
+    expect(check_for_main_text).toBeInTheDocument()
+  })
 })
