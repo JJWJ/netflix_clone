@@ -5,7 +5,7 @@ const Faq = () => {
         <div className="text-white bg-black border-t-8 border-neutral-800 ">
             <div className="flex justify-center text-center flex-col items-center ">
                 <div className="max-w-[900px] flex justify-center items-center flex-col">
-                    <p className="text-2xl mb-2 p-[5%] font-bold max-w-[70%] ">Frequently Asked Questions</p>
+                    <p className="text-2xl mb-2 pt-10 pb-4 font-bold max-w-[70%] ">Frequently Asked Questions</p>
                     <ul className=" w-full p-0">
                         <li>
                             <button className="flex justify-between rounded-sm mb-4 bg-neutral-600 w-full p-2">What is Netflix?
