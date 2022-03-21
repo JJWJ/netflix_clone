@@ -21,6 +21,7 @@ const Home: NextPage = () => {
             <Header />
           </div>
           <div className='absolute top-0 left-0 bottom-0 right-0 w-full h-[70px] z-0 bg-[rgba(0,0,0,.4)] bg-gradient-to-t from-[rgba(0,0,0,.2)]  via-[rgba(0,0,0,.8)] to-[rgb(0,0,0)]'></div>
+          <div className='absolute top-0 left-0 bottom-0 right-0 w-full h-[80vh] z-0 bg-[rgba(0,0,0,.4)] bg-gradient-to-t from-[rgba(0,0,0,.8)]  via-[rgba(0,0,0,.0)] to-[rgba(0,0,0,0.8)]'></div>
         </div>
         <div className='flex h-[80vh]'>
           <Hero_card />
