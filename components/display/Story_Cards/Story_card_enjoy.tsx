@@ -18,9 +18,9 @@ const Story_card_enjoy = (appProps: AppProps) => {
                 {/* Card Image and Video */}
                 <div className='min-w-screen lg:max-w-[50%] lg:min-w-[50%] '>
                     <div className='z-20'>
-                        <Image className='z-20 ' src={enjoyStoryImage} alt='' />
+                        <Image className='z-20 ' src={enjoyStoryImage} alt='' layout='responsive' />
                     </div>
-                    <div className='flex justify-center items-center translate-y-[-150%] translate-x-[12%] max-w-[80%] 2xl:translate-y-[-150%]  2xl:translate-x-[14%] z-10 2xl:max-w-[500px]'>
+                    <div className='flex justify-center items-center translate-y-[-150%] translate-x-[12%] max-w-[80%] '>
                         <video width={'90%'} height={'70%'} autoPlay muted loop playsInline className=' object-contain'>
                             <source src='/Enjoy_Netflix_Video.m4v' type={'video/mp4'} />
                         </video>

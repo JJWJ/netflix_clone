@@ -18,7 +18,7 @@ const Stroy_card_download = (appProps: AppProps) => {
                 {/* Card Image and Video */}
                 <div className='min-w-full lg:max-w-[50%] lg:min-w-[50%]'>
                     <div className=''>
-                        <Image src={downloadStoryImage} alt='' />
+                        <Image src={downloadStoryImage} alt='' layout='responsive' />
                     </div>
                 </div>
             </div>

@@ -18,10 +18,10 @@ const Story_card_watch = (appProps: AppProps) => {
                 {/* Card Image and Video */}
                 <div className='min-w-screen lg:min-w-[50%] lg:max-w-[50%] '>
                     <div className=''>
-                        <Image className='z-20' src={watchStoryImage} alt='' />
+                        <Image className='z-20' src={watchStoryImage} alt='' layout='responsive' />
                     </div>
-                    <div className='flex justify-center lg:flex-col lg:items-center translate-y-[-200%] z-10 max-w-[650px]'>
-                        <video width={'60%'} height={'50%'} autoPlay muted loop playsInline className='max-w-[375px] object-contain'>
+                    <div className='flex justify-center lg:flex-col lg:items-center translate-y-[-185%] translate-x-[13%] z-10 max-w-[80%]'>
+                        <video width={'80%'} height={'70%'} autoPlay muted loop playsInline className='object-contain'>
                             <source src='/Watch_Netflix_Video.m4v' type={'video/mp4'} />
                         </video>
                     </div>
