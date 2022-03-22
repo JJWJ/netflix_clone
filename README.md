@@ -8,6 +8,7 @@ To imitate the style and function of the Netflix website using React \(Next.js\)
 
 ## Still to do
 
+- [ ] GitHub Actions for CI/CD tests mostly
 - [ ] Animations for faq
 - [ ] Animations for download story card
 - [ ] Imitate Netflix use of before and after in language dropdown
