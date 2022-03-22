@@ -13,6 +13,7 @@ To imitate the style and function of the Netflix website using React \(Next.js\)
 - [ ] Animations for download story card
 - [ ] Imitate Netflix use of before and after in language dropdown
 - [ ] Imitate email input transforms for label
+- [ ] Video sections spacing
 - [ ] E2E testing for user flows
 - [ ] Next Auth Login
 - [ ] Post login page...
