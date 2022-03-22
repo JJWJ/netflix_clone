@@ -20,8 +20,10 @@ To imitate the style and function of the Netflix website using React \(Next.js\)
 ---
 ## Screenshots
 
+### Mobile \(iPhone 12\)
 ![iPhone 12 current state](./screenshots/localhost_3000__iPhone12Pro.png)
 
+### Tablet \(iPad Air\)
 ![iPad Air current state](./screenshots/localhost_3000__iPadAir.png)
 
 ---
