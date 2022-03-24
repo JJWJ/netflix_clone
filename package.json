@@ -8,6 +8,7 @@
     "start": "next start",
     "test": "jest --watchAll",
     "test:e2e": "playwright test",
+    "test:ci": "jest --ci",
     "lint": "next lint"
   },
   "dependencies": {
