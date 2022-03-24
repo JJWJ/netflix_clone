@@ -37,6 +37,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Yarn install and test
         run: |
-          yarn ci
+          yarn install
           yarn test
           yarn test:e2e
