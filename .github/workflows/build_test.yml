@@ -40,4 +40,5 @@ jobs:
           yarn
           yarn install
           yarn test
+          npx playwright install --with-deps
           yarn test:e2e
