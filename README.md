@@ -19,7 +19,7 @@ To imitate the style and function of the Netflix website using React \(Next.js\)
 - [ ] Post login page...
 
 ---
-## Screenshots
+## Current State
 
 ### Mobile \(iPhone 12\)
 ![iPhone 12 current state](./screenshots/iPhone.gif)
