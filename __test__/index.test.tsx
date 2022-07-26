@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import Faq from '../components/display/FAQ/Faq'
+import Faq_List_Item from '../components/display/FAQ/Faq_List_Item'
 import Footer_card from '../components/display/Footer/Footer_card'
 import Header from '../components/display/Header/Header'
 import Hero_card from '../components/display/Hero/Hero_card'
@@ -55,12 +56,23 @@ describe('Home existences', () => {
     expect(check_footer_phone_number).toBeInTheDocument()
   })
 
+
   it('renders the faq', () => {
     render(<Faq />)
 
     const check_faq_question = screen.getByText(/What is Netflix/i)
 
     expect(check_faq_question).toBeInTheDocument()
+  })
+
+  it('renders the faq list item correctly', () => {
+    render(<Faq_List_Item buttonText='Test Text' contentMain='Just one line' />)
+
+    const check_faq_list_item_button = screen.getByRole('button', { name: 'Test Text' })
+    const check_faq_list_item_content = screen.getByText(/Just one line/i)
+
+    expect(check_faq_list_item_button).toBeInTheDocument()
+    expect(check_faq_list_item_content).toBeInTheDocument()
   })
 
   it('renders the kids story card', () => {
