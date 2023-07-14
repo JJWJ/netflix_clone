@@ -7,7 +7,7 @@ import Hero_card from '../components/display/Hero/Hero_card'
 import Story_card_enjoy from '../components/display/Story_Cards/Story_card_enjoy'
 import Story_card_kids from '../components/display/Story_Cards/Story_card_kids'
 import Story_card_watch from '../components/display/Story_Cards/Story_card_watch'
-import Stroy_card_download from '../components/display/Story_Cards/Stroy_card_download'
+import Story_card_download from '../components/display/Story_Cards/Story_card_download'
 
 const Home: NextPage = () => {
   return (
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
           Header='Enjoy on your TV.'
           MainText='Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.'
         />
-        <Stroy_card_download
+        <Story_card_download
           Header='Download your shows to watch offline.'
           MainText='Save your favorites easily and always have something to watch.'
         />

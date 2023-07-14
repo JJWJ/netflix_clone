@@ -6,7 +6,7 @@ interface AppProps {
     MainText: string
 }
 
-const Stroy_card_download = (appProps: AppProps) => {
+const Story_card_download = (appProps: AppProps) => {
     return (
         <div className="text-white bg-black w-screen flex py-12 px-[5%] border-t-8 border-neutral-800">
             <div className='flex flex-col lg:flex-row-reverse lg:flex-wrap justify-between items-center w-screen'>
@@ -26,4 +26,4 @@ const Stroy_card_download = (appProps: AppProps) => {
     )
 }
 
-export default Stroy_card_download
+export default Story_card_download
