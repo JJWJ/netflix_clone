@@ -1,10 +1,10 @@
 {
   "name": "modern_e2e_redux",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "engines": {
-    "npm": ">=9.6.2 <10.0.0",
-    "node": ">= 16.17.1 <17.0.0"
+    "npm": ">=9.6.2",
+    "node": ">=16.17.1"
   },
   "scripts": {
     "dev": "next dev",
