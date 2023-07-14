@@ -9,14 +9,19 @@ To imitate the style of the Netflix website using React \(Next.js\) and Tailwind
 ## Still to do
 
 - [x] GitHub Actions for CI tests mostly
-- [ ] Animations for faq and download story card
-- [ ] Imitate email input transforms for label
 
-## Possible expansions
+[//]: # (- [ ] Animations for faq and download story card)
 
-- [ ] user authentication and login flow
-- [ ] E2E testing for user flows
-- [ ] Post login page...
+[//]: # (- [ ] Imitate email input transforms for label)
+
+[//]: # (## Possible expansions)
+
+[//]: # ()
+[//]: # (- [ ] user authentication and login flow)
+
+[//]: # (- [ ] E2E testing for user flows)
+
+[//]: # (- [ ] Post login page...)
 
 ---
 

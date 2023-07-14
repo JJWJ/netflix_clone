@@ -2,6 +2,10 @@
   "name": "modern_e2e_redux",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": ">=9.6.2 <10.0.0",
+    "node": ">= 16.17.1 <17.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -34,6 +38,5 @@
     "prettier": "2.5.1",
     "tailwindcss": "^3.0.23",
     "typescript": "4.6.2"
-  },
-  "packageManager": "yarn@3.2.0"
+  }
 }

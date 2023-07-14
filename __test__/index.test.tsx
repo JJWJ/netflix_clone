@@ -7,7 +7,7 @@ import Hero_card from '../components/display/Hero/Hero_card'
 import Story_card_enjoy from '../components/display/Story_Cards/Story_card_enjoy'
 import Story_card_kids from '../components/display/Story_Cards/Story_card_kids'
 import Story_card_watch from '../components/display/Story_Cards/Story_card_watch'
-import Story_card_download from '../components/display/Story_Cards/Stroy_card_download'
+import Story_card_download from '../components/display/Story_Cards/Story_card_download'
 import Home from '../pages/index'
 
 describe('Home existences', () => {
